@@ -620,7 +620,7 @@ sd.data.df <- data.frame(cbind(biodist_time, sd_data))
 colnames(data.df) <- c("Time", colnames(sd_data))
 
 # Set the path where the plots will be stored
-setwd("")
+setwd(path)
 
 counter <-1
 for (dat in bag_of_data) {
