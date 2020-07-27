@@ -614,7 +614,7 @@ comp_names <- names(bag_of_pred)
 
 counter <-1
 # Set the working directory where plots will be exported
-setwd("")
+setwd(path)
 
 for (dat in bag_of_pred) {
   comp_name<-comp_names[counter]
